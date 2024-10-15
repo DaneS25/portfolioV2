@@ -23,7 +23,7 @@ body {
   padding: 20px;
   box-sizing: border-box;
   color: aliceblue;
-  min-height: 100vh; /* Allow it to grow if content exceeds */
+  height: 100vh; /* Allow it to grow if content exceeds */
   background-image: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXQ1cjh4YmdzcjFtMHB3bHhpbGgzdWE2MjlwNGtoOXgwdzQxMHpxYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Q34Q46x7bUUKJfbn0s/giphy.webp');
   background-size: cover;
   background-repeat: no-repeat;

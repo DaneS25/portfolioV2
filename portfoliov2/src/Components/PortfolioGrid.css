@@ -54,11 +54,14 @@ html, body {
     box-shadow: none; 
 }
 .item3 { 
-    grid-area: item3; 
+    grid-area: item3;
+    position: sticky;
+    top: 0;
+    z-index: 1; 
     height: auto; 
     padding-top: 5px; 
     background-color: transparent; 
-    box-shadow: none; 
+    box-shadow: none;
 }
 .item4 { grid-area: item4; height: auto; }
 .item5 { grid-area: item5; height: auto; }
@@ -88,7 +91,6 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center; /* Center the title and images */
-    position: relative; /* Allow fine-tuning of images using negative margins */
     width: 50%; /* Narrow the width to reduce overall spacing */
     margin: 0 auto; /* Center the entire container */
 }
