@@ -1,0 +1,66 @@
+html, body {
+  margin: 0; /* Ensure no margin on html and body */
+  padding: 0; /* Ensure no padding on html and body */
+  height: 100%; /* Ensure body takes the full height */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Reset default body margin */
+body {
+  background-image: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXQ1cjh4YmdzcjFtMHB3bHhpbGgzdWE2MjlwNGtoOXgwdzQxMHpxYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Q34Q46x7bUUKJfbn0s/giphy.webp');
+  background-size: cover; /* Cover the entire page */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-position: center; /* Center the image */
+  opacity: 0.9; /* Set opacity */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Align items to the top */
+  padding: 20px;
+  box-sizing: border-box;
+  color: aliceblue;
+  min-height: 100vh; /* Allow it to grow if content exceeds */
+  background-image: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXQ1cjh4YmdzcjFtMHB3bHhpbGgzdWE2MjlwNGtoOXgwdzQxMHpxYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Q34Q46x7bUUKJfbn0s/giphy.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.name-gif {
+  margin-top: -50px;
+  margin-bottom: -30px;
+}
+
+/* For WebKit-based browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+  height:12px; /* Height of the scrollbar for horizontal scroll */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Initially transparent thumb */
+  border-radius: 6px; /* Round the corners of the thumb */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(255, 255, 255, 0.6); /* Faint thumb color on hover */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Transparent background for the track */
+  border-radius: 6px; /* Round the corners of the track */
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin; /* Use 'thin' for a smaller scrollbar */
+  scrollbar-color: rgba(255, 255, 255, 0.6) transparent; /* Thumb color and track color */
+}
+
+

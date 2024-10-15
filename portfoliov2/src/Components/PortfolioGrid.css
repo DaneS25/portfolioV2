@@ -1,0 +1,63 @@
+/* Ensure all elements use border-box sizing */
+* {
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+/* Prevent horizontal scrolling */
+html, body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Set to 2 equal columns */
+    grid-template-areas: 
+        "item1 item2"
+        "item3 item3"
+        "item4 item5"
+        "item6 item7"
+        "item8 item8"; /* Adjusted layout for 2 columns */
+    gap: 30px; /* Space between items */
+    width: 100%; /* Ensure the grid takes the full width */
+    padding: 0; /* Remove padding around the grid */
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.3); /* White background with 30% opacity */
+    border: transparent; /* Border for grid items */
+    padding: 40px; /* Padding inside each item */
+    display: flex; /* Use Flexbox to center content */
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+    color: rgb(254, 254, 254); /* Text color for grid items */
+}
+
+/* Individual item definitions */
+.item1 { grid-area: item1; height: auto; }
+.item2 { grid-area: item2; height: auto; }
+.item3 { grid-area: item3; height: auto; }
+.item4 { grid-area: item4; height: auto; }
+.item5 { grid-area: item5; height: auto; }
+.item6 { grid-area: item6; height: auto; }
+.item7 { grid-area: item7; height: auto; }
+.item8 { grid-area: item8; height: auto; }
+
+/* Media Query for responsive behavior */
+@media (max-width: 1200px) {
+    .portfolio-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    }
+}
+
+@media (max-width: 900px) {
+    .portfolio-grid {
+        grid-template-columns: 1fr; /* 1 column */
+    }
+}
+
+@media (max-width: 600px) {
+    .portfolio-grid {
+        grid-template-columns: 1fr; /* 1 column */
+    }
+}
