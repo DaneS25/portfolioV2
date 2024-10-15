@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './PortfolioGrid.css';
+import '../App.css';
 import GitHubIcon from '../Assets/github.jpg'
 import LinkedInIcon from '../Assets/linkedin.jpg'
 import InstagramIcon from '../Assets/instagram.png'
@@ -8,6 +9,34 @@ import PictureOfMe2 from '../Assets/mepicture2.jpg'
 
 const PortfolioGrid = () => {
     const [isSwapped, setIsSwapped] = useState(false); // State to track image swap
+
+    useEffect(() => {
+        const scrollContainer = document.querySelector('.app-container'); // Target the correct container
+        const titleContainer = document.querySelector('.item3'); // Select the title container (item3)
+    
+        const handleScroll = () => {
+            const scrollPosition = scrollContainer.scrollTop;
+            console.log('Scroll Position:', scrollPosition); // Log container scroll position
+    
+            // Fade out title container more slowly between 1200px and 1500px
+            if (scrollPosition > 1200 && scrollPosition <= 1450) {
+                const fadeOutFactor = (1450 - scrollPosition) / 300; // Slow down fade-out over 300px
+                titleContainer.style.opacity = fadeOutFactor; // Adjust opacity based on scroll
+            } else if (scrollPosition > 1450) {
+                titleContainer.style.position = 'relative'; // Unstick after 1500px
+                titleContainer.style.opacity = '0'; // Fully faded out
+            } else {
+                titleContainer.style.position = 'sticky'; // Stick again
+                titleContainer.style.opacity = '1'; // Fully visible
+            }
+        };
+    
+        scrollContainer.addEventListener('scroll', handleScroll);
+    
+        return () => {
+            scrollContainer.removeEventListener('scroll', handleScroll);
+        };
+    }, []);       
 
     useEffect(() => {
         const timer = setInterval(() => {
