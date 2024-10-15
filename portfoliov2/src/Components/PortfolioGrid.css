@@ -76,7 +76,7 @@ html, body {
     font-family: "VT323", monospace; /* Use VT323 font for monospace style */
     color: #00FF00;
     font-size: 9.5rem; /* Larger font size for project titles */
-    margin-top: 0; /* Remove top margin to reduce space above */
+    margin-top: -20px; /* Remove top margin to reduce space above */
     margin-bottom: 0; /* Keep space below the title */
 }
 
