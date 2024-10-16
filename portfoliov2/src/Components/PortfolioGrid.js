@@ -78,8 +78,39 @@ const PortfolioGrid = () => {
                     <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWxqdGMybnBlZ3ZycWs2dmxvOXV2dWU3NXU4NGV2ajg3d3c3cG16cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/1lDE8yNG4a8oqdOajv/giphy.webp" alt="Right" className="side-image" />
                 </div>
             </div>
-            <div className="grid-item item4">Item 4</div>
-            <div className="grid-item item5"><p className='para1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur suscipit, ligula at tincidunt tristique, nunc nulla hendrerit est, eget vehicula urna lacus nec elit. Donec vel ante sit amet dolor interdum tempus. Praesent scelerisque nisi ut tortor egestas, ut pharetra eros ultrices. Aenean sit amet malesuada lorem. Etiam ultricies urna vitae lectus convallis, nec dignissim tortor fermentum. Phasellus id risus ut mi vehicula auctor. Suspendisse id orci nec ipsum suscipit vulputate non nec tortor. Proin consectetur, velit a facilisis placerat, libero purus ullamcorper purus, in finibus felis mi et lacus.</p></div>
+            <div className="grid-item item4">
+                <div className="button-container-1">
+                    <a href="https://todo-dane.web.app/" target="_blank" rel="noopener noreferrer" className="custom-button-1">
+                        <span className="button-text-1">Todo List App</span>
+                    </a>
+                    <a href="https://dane-poker.web.app/" target="_blank" rel="noopener noreferrer" className="custom-button-1">
+                        <span className="button-text-1">Poker Game</span>
+                    </a>
+                </div>
+            </div>
+            <div className="grid-item item5">
+                <h3 className='project-text-title'>Todo App</h3>
+                <p className='project-text'>
+                    <br></br>The Todo App is developed using React and leverages Firebase as its content management system (CMS). Its primary objective is to provide a web-based task management solution that allows users to access and manage their todo lists both online and offline. Tasks can be added, modified, and deleted, ensuring that they are stored indefinitely in the cloud.<br></br>
+                    <br></br>In offline mode, any tasks created will be synchronized with the Firebase database automatically once the application detects an internet connection, ensuring seamless user experience and data integrity.
+                </p>
+                <p className='project-text-1'>Login Credentials</p>
+                <p className='project-text'>
+                    Email: admin@email.com<br></br>Password: adminpass
+                </p>
+
+                <h3 className='project-text-title'>Poker Game</h3>
+                <p className='project-text'>
+                    <br></br>This multiplayer poker game is built using React and integrates Firebase as the content management system (CMS), similar to the architecture used in the Todo App. The game implements a 5-card draw poker format, allowing players to discard and replace any number of cards in their hand once per round. Discarded cards are removed from the game and cannot be reused by other players, ensuring each game instance remains unique.<br></br>
+                    <br></br>After the draw phase, players' hands are evaluated and assigned a numeric value based on standard poker hand rankings, determining the strength of each hand.<br></br>
+                    <br></br>As a multiplayer experience, the game requires at least two participants. To simulate gameplay, you can open two separate browser sessions (e.g., Chrome and an Incognito session, or Chrome and Edge) and log into different accounts to create a match.
+                </p>
+                <p className='project-text-1'>Login Credentials</p>
+                <p className='project-text'>
+                    Email: admin@email.com<br></br>Password: adminpass<br></br>
+                    Email: test@email.com<br></br>Password: testpass
+                </p>
+            </div>
             <div className="grid-item item6">
                 <div className="icon-container">
                     <img src={GitHubIcon} alt="Github Icon" className="grid-icon" />

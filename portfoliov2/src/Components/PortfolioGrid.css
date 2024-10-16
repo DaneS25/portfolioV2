@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
 
 /* Ensure all elements use border-box sizing */
 * {
@@ -63,8 +64,25 @@ html, body {
     background-color: transparent; 
     box-shadow: none;
 }
-.item4 { grid-area: item4; height: auto; }
-.item5 { grid-area: item5; height: auto; }
+.item4 { 
+    grid-area: item4; 
+    height: auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.item5 { 
+    grid-area: item5; 
+    height: auto; 
+    display: flex; 
+    flex-direction: column; /* Stack the children vertically */
+    align-items: flex-start; /* Align content to the left */
+    justify-content: flex-start; 
+    padding: 5px; 
+    width: 100%;
+}
 .item6 { grid-area: item6; height: auto; }
 .item7 { grid-area: item7; height: auto; }
 .item8 { grid-area: item8; height: auto; }
@@ -101,6 +119,86 @@ html, body {
     object-fit: contain;
     margin-left: -50px; /* Negative margin to bring image closer */
     margin-right: -50px; /* Negative margin to bring other image closer */
+}
+
+.button-container-1 {
+    display: flex;
+    gap: 20px; /* Space between buttons */
+}
+
+.custom-button-1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-size: cover;
+    background-position: center;
+    width: 440px;
+    height: 460px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: white;
+    opacity: 0.9; /* Slight opacity */
+    
+    /* Add 3D shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 
+                0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.custom-button-1:hover {
+    transform: scale(1.05) translateY(-5px); /* Slight lift on hover */
+    opacity: 1;
+    
+    /* Enhance shadow on hover for a more pronounced 3D effect */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4), 
+                0 12px 25px rgba(0, 0, 0, 0.3);
+}
+
+.custom-button-1:nth-child(1) {
+    background-image: url('../Assets/todopic.jpg'); /* Your Todo app image */
+}
+
+.custom-button-1:nth-child(2) {
+    background-image: url('../Assets/pokerpic.jpg'); /* Your Poker game image */
+}
+
+.button-text-1 {
+    font-family: "Cinzel", serif;
+    position: absolute;
+    top: 20px;
+    font-size: 28px;
+    font-weight: 700;
+    text-decoration: underline;
+    color: aliceblue;
+    text-shadow: none;
+}
+
+.project-text-title {
+    font-family: "VT323", monospace;
+    margin-bottom: 1px; /* Reduce space between the heading and text */
+    font-size: 24px; 
+    line-height: 0.5;
+    text-decoration: underline;
+    color: #CC5500;
+    margin-top: -1px;
+}
+
+.project-text {
+    font-family: "VT323", monospace;
+    margin-top: -8px; /* Ensure space between title and text */
+    font-size: 18px; 
+    line-height: 1; /* Line height for better readability */
+    text-align: justify;
+}
+
+.project-text-1 {
+    font-family: "VT323", monospace;
+    text-decoration: underline;
+    color: #CC5500; 
+    margin-top: -15px; /* Create separation before the login credentials */
+    font-size: 20px; /* Adjust font size for emphasis */
+    margin-bottom: 8px; /* Reduce space between the heading and text */
 }
 
 .icon-container {
