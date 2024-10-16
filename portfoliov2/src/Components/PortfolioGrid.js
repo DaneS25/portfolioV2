@@ -112,13 +112,22 @@ const PortfolioGrid = () => {
                 </p>
             </div>
             <div className="grid-item item6">
-                <div className="icon-container">
-                    <img src={GitHubIcon} alt="Github Icon" className="grid-icon" />
-                    <img src={LinkedInIcon} alt="Linkedin Icon" className='grid-icon'/>
-                    <img src={InstagramIcon} alt="Instagram Icon" className='grid-icon'/>
+            <h3 className='project-title-1'>Streetle</h3>
+                <p className='project-text-2'>
+                    Streetle is a web-based game that combines elements from GeoGuessr, Wordle, and Worldle. Developed as a capstone project for my Bachelor's degree, it leverages the Google Street View API to immerse players in a randomly selected country. The challenge is to identify the country without moving from the starting point, with each player having up to five attempts per round to make the correct guess.
+                    <br /><br />
+                    After each guess, the game's legend provides feedback with key statistics such as the distance and direction between the guess and the correct location, whether the guess lies within the same hemisphere, and if the guessed country shares a border with the correct one.
+                    <br /><br />
+                    Due to the absence of an active API key, the game currently operates in developer mode with a demo configuration. To experience the full functionality, the demo location is set to Bolivia.
+                </p>
+            </div>
+            <div className="grid-item item7">
+                <div className="button-container-2">
+                    <a href="https://streetle-29d87.web.app/" target="_blank" rel="noopener noreferrer" className="custom-button-2">
+                        <span className="button-text-2">Streetle</span>
+                    </a>
                 </div>
             </div>
-            <div className="grid-item item7">Item 7</div>
             <div className="grid-item item8">Item 8</div>
             <div className="grid-item item9"><p className='para1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur suscipit, ligula at tincidunt tristique, nunc nulla hendrerit est, eget vehicula urna lacus nec elit. Donec vel ante sit amet dolor interdum tempus. Praesent scelerisque nisi ut tortor egestas, ut pharetra eros ultrices. Aenean sit amet malesuada lorem. Etiam ultricies urna vitae lectus convallis, nec dignissim tortor fermentum. Phasellus id risus ut mi vehicula auctor. Suspendisse id orci nec ipsum suscipit vulputate non nec tortor. Proin consectetur, velit a facilisis placerat, libero purus ullamcorper purus, in finibus felis mi et lacus.</p></div>
             <div className="grid-item item10">Item 10</div>
@@ -126,7 +135,13 @@ const PortfolioGrid = () => {
             <div className="grid-item item12"><p className='para1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur suscipit, ligula at tincidunt tristique, nunc nulla hendrerit est, eget vehicula urna lacus nec elit. Donec vel ante sit amet dolor interdum tempus. Praesent scelerisque nisi ut tortor egestas, ut pharetra eros ultrices. Aenean sit amet malesuada lorem. Etiam ultricies urna vitae lectus convallis, nec dignissim tortor fermentum. Phasellus id risus ut mi vehicula auctor. Suspendisse id orci nec ipsum suscipit vulputate non nec tortor. Proin consectetur, velit a facilisis placerat, libero purus ullamcorper purus, in finibus felis mi et lacus.</p></div>
             <div className="grid-item item13"><p className='para1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur suscipit, ligula at tincidunt tristique, nunc nulla hendrerit est, eget vehicula urna lacus nec elit. Donec vel ante sit amet dolor interdum tempus. Praesent scelerisque nisi ut tortor egestas, ut pharetra eros ultrices. Aenean sit amet malesuada lorem. Etiam ultricies urna vitae lectus convallis, nec dignissim tortor fermentum. Phasellus id risus ut mi vehicula auctor. Suspendisse id orci nec ipsum suscipit vulputate non nec tortor. Proin consectetur, velit a facilisis placerat, libero purus ullamcorper purus, in finibus felis mi et lacus.</p></div>
             <div className="grid-item item14">Item 14</div>
-            <div className="grid-item item15">Item 15</div>
+            <div className="grid-item item15">
+                <div className="icon-container">
+                    <img src={GitHubIcon} alt="Github Icon" className="grid-icon" />
+                    <img src={LinkedInIcon} alt="Linkedin Icon" className='grid-icon'/>
+                    <img src={InstagramIcon} alt="Instagram Icon" className='grid-icon'/>
+                </div>
+            </div>
             <div className="grid-item item16"><p className='para1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur suscipit, ligula at tincidunt tristique, nunc nulla hendrerit est, eget vehicula urna lacus nec elit. Donec vel ante sit amet dolor interdum tempus. Praesent scelerisque nisi ut tortor egestas, ut pharetra eros ultrices. Aenean sit amet malesuada lorem. Etiam ultricies urna vitae lectus convallis, nec dignissim tortor fermentum. Phasellus id risus ut mi vehicula auctor. Suspendisse id orci nec ipsum suscipit vulputate non nec tortor. Proin consectetur, velit a facilisis placerat, libero purus ullamcorper purus, in finibus felis mi et lacus.</p></div>
         </div>
     );

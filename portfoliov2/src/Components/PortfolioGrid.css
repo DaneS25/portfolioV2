@@ -83,7 +83,16 @@ html, body {
     padding: 5px; 
     width: 100%;
 }
-.item6 { grid-area: item6; height: auto; }
+.item6 { 
+    grid-area: item6; 
+    height: auto;
+    display: flex; 
+    flex-direction: column; /* Stack the children vertically */
+    align-items: flex-start; /* Align content to the left */
+    justify-content: flex-start; 
+    padding: 5px; 
+    width: 100%; 
+}
 .item7 { grid-area: item7; height: auto; }
 .item8 { grid-area: item8; height: auto; }
 
@@ -134,8 +143,8 @@ html, body {
     text-decoration: none;
     background-size: cover;
     background-position: center;
-    width: 440px;
-    height: 460px;
+    width: 460px;
+    height: 520px;
     border-radius: 8px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     color: white;
@@ -199,6 +208,70 @@ html, body {
     margin-top: -15px; /* Create separation before the login credentials */
     font-size: 20px; /* Adjust font size for emphasis */
     margin-bottom: 8px; /* Reduce space between the heading and text */
+}
+
+.button-container-2 {
+    display: flex;
+    justify-content: center; /* Center the single button */
+}
+
+.custom-button-2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-size: cover;
+    background-position: center;
+    width: 830px;
+    height: 330px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: white;
+    opacity: 0.9; /* Slight opacity */
+    
+    /* Add 3D shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 
+                0 6px 20px rgba(0, 0, 0, 0.2);
+    
+    background-image: url('../Assets/mappic.jpg'); /* Use mappic as the background */
+}
+
+.custom-button-2:hover {
+    transform: scale(1.05) translateY(-5px); /* Slight lift on hover */
+    opacity: 1;
+    
+    /* Enhance shadow on hover for a more pronounced 3D effect */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4), 
+                0 12px 25px rgba(0, 0, 0, 0.3);
+}
+
+.button-text-2 {
+    font-family: "Cinzel", serif;
+    position: absolute;
+    top: 20px;
+    font-size: 58px;
+    font-weight: 800;
+    text-decoration: underline;
+    color: aliceblue;
+    text-shadow: none;
+}
+
+.project-title-1 {
+    font-family: "VT323", monospace;
+    font-size: 32px; 
+    line-height: 0.5;
+    text-decoration: underline;
+    color: #CC5500;
+    margin-top: 5px;
+}
+
+.project-text-2 {
+    font-family: "VT323", monospace;
+    font-size: 24px; 
+    line-height: 1; /* Line height for better readability */
+    text-align: justify;
+    margin-top: -1px;
 }
 
 .icon-container {
