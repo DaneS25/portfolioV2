@@ -92,7 +92,7 @@ const PortfolioGrid = () => {
                 <h3 className='project-text-title'>Todo App</h3>
                 <p className='project-text'>
                     <br></br>The Todo App is developed using React and leverages Firebase as its content management system (CMS). Its primary objective is to provide a web-based task management solution that allows users to access and manage their todo lists both online and offline. Tasks can be added, modified, and deleted, ensuring that they are stored indefinitely in the cloud.<br></br>
-                    <br></br>In offline mode, any tasks created will be synchronized with the Firebase database automatically once the application detects an internet connection, ensuring seamless user experience and data integrity.
+                    In offline mode, any tasks created will be synchronized with the Firebase database automatically once the application detects an internet connection, ensuring seamless user experience and data integrity.
                 </p>
                 <p className='project-text-1'>Login Credentials</p>
                 <p className='project-text'>
@@ -102,8 +102,8 @@ const PortfolioGrid = () => {
                 <h3 className='project-text-title'>Poker Game</h3>
                 <p className='project-text'>
                     <br></br>This multiplayer poker game is built using React and integrates Firebase as the content management system (CMS), similar to the architecture used in the Todo App. The game implements a 5-card draw poker format, allowing players to discard and replace any number of cards in their hand once per round. Discarded cards are removed from the game and cannot be reused by other players, ensuring each game instance remains unique.<br></br>
-                    <br></br>After the draw phase, players' hands are evaluated and assigned a numeric value based on standard poker hand rankings, determining the strength of each hand.<br></br>
-                    <br></br>As a multiplayer experience, the game requires at least two participants. To simulate gameplay, you can open two separate browser sessions (e.g., Chrome and an Incognito session, or Chrome and Edge) and log into different accounts to create a match.
+                    After the draw phase, players' hands are evaluated and assigned a numeric value based on standard poker hand rankings, determining the strength of each hand.<br></br>
+                    As a multiplayer experience, the game requires at least two participants. To simulate gameplay, you can open two separate browser sessions (e.g., Chrome and an Incognito session, or Chrome and Edge) and log into different accounts to create a match.
                 </p>
                 <p className='project-text-1'>Login Credentials</p>
                 <p className='project-text'>
