@@ -116,7 +116,7 @@ const PortfolioGrid = () => {
                 <p className='project-text-2'>
                     Streetle is a web-based game that combines elements from GeoGuessr, Wordle, and Worldle. Developed as a capstone project for my Bachelor's degree, it leverages the Google Street View API to immerse players in a randomly selected country. The challenge is to identify the country without moving from the starting point, with each player having up to five attempts per round to make the correct guess.
                     <br /><br />
-                    After each guess, the game's legend provides feedback with key statistics such as the distance and direction between the guess and the correct location, whether the guess lies within the same hemisphere, and if the guessed country shares a border with the correct one.
+                    Built with React, the project was a valuable experience due to the complex cardinal algorithms involved in its creation. These algorithms are used to calculate and display feedback after each guess, providing key statistics like the distance and direction between the guess and the correct location. The game also informs players whether their guess lies within the same hemisphere or shares a border with the correct country.
                     <br /><br />
                     Due to the absence of an active API key, the game currently operates in developer mode with a demo configuration. To experience the full functionality, the demo location is set to Bolivia.
                 </p>

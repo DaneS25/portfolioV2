@@ -47,7 +47,8 @@ html, body {
     min-height: 300px; /* Use min-height to prevent collapsing */
     height: auto; /* Let the content define the height */
     margin: 10px 0; /* Adjust margin to reduce space below */
-    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2); 
+    background-color: transparent;
+    box-shadow: none; 
 }
 .item2 { 
     grid-area: item2; 
@@ -84,6 +85,8 @@ html, body {
     justify-content: flex-start; 
     padding: 5px; 
     width: 100%;
+    background-color: transparent;
+    box-shadow: none;
 }
 .item6 { 
     grid-area: item6; 
@@ -94,6 +97,8 @@ html, body {
     justify-content: flex-start; 
     padding: 5px; 
     width: 100%; 
+    background-color: transparent;
+    box-shadow: none;
 }
 .item7 { 
     grid-area: item7; 
