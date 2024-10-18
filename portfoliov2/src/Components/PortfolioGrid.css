@@ -399,12 +399,20 @@ html, body {
             "item5"
             "item6"
             "item7"
-            "item8"; /* Adjusted layout for single column */
+            "item8"
+            "item9"
+            "item10"
+            "item11"
+            "item12"
+            "item13"
+            "item14"
+            "item15"
+            "item16"; /* Adjusted layout for single column */
     }
     .para1, .project-text, .project-text-1, .project-text-title, .project-title-1, .project-text-2 {
         font-size: 1.1rem; /* Slightly smaller text for medium screens */
     }
-    .custom-button-1, .custom-button-2 {
+    .custom-button-1, .custom-button-2, .custom-button-3 {
         width: 100%; /* Allow buttons to shrink on smaller screens */
         height: auto; /* Adjust height accordingly */
         min-height: 280px; /* Add a minimum height to ensure visibility */
@@ -438,20 +446,28 @@ html, body {
             "item5"
             "item7"
             "item6"
-            "item8"; /* All items stacked in one column */
+            "item8"
+            "item9"
+            "item10"
+            "item11"
+            "item12"
+            "item13"
+            "item14"
+            "item15"
+            "item16"; /* All items stacked in one column */
     }
     .para1, .project-text, .project-text-1, .project-text-title, .project-title-1, .project-text-2 {
         font-size: 1rem; /* Smaller text for mobile screens */
     }
 
-    .custom-button-1, .custom-button-2 {
+    .custom-button-1, .custom-button-2, .custom-button-3 {
         width: 100%; /* Allow buttons to shrink on smaller screens */
         height: auto; /* Adjust height accordingly */
         min-height: 280px; /* Add a minimum height to ensure visibility */
         min-width: 320px; /* Add a minimum width to ensure visibility */
     }
 
-    .button-container-1, .button-container-2 {
+    .button-container-1, .button-container-2, .button-container-3 {
         flex-direction: column; /* Stack buttons vertically on small screens */
     }
 
@@ -489,7 +505,15 @@ html, body {
             "item5"
             "item7"
             "item6"
-            "item8"; /* Stack all items */
+            "item8"
+            "item9"
+            "item10"
+            "item11"
+            "item12"
+            "item13"
+            "item14"
+            "item15"
+            "item16"; /* Stack all items */
     }
 
     .grid-item {
@@ -508,13 +532,13 @@ html, body {
     .para1, .project-text, .project-text-1, .project-text-title, .project-title-1, .project-text-2 {
         font-size: 0.9rem; /* Even smaller text for smaller screens */
     }
-    .custom-button-1, .custom-button-2 {
+    .custom-button-1, .custom-button-2, .custom-button-3 {
         width: 100%; /* Allow buttons to shrink on smaller screens */
         height: auto; /* Adjust height accordingly */
         min-height: 280px; /* Add a minimum height to ensure visibility */
         min-width: 320px; /* Add a minimum width to ensure visibility */
     }
-    .button-container-1, .button-container-2 {
+    .button-container-1, .button-container-2, .button-container-3 {
         flex-direction: column; /* Stack buttons vertically on small screens */
     }
     .button-text-1, .button-text-2 {
@@ -579,14 +603,14 @@ html, body {
         width: 100%; /* Ensure images cover the entire width */
         height: auto; /* Maintain aspect ratio */
     }
-    .custom-button-1, .custom-button-2 {
+    .custom-button-1, .custom-button-2, .custom-button-3 {
         width: 100%; /* Allow buttons to shrink on smaller screens */
         height: auto; /* Adjust height accordingly */
         min-height: 280px; /* Add a minimum height to ensure visibility */
         min-width: 320px; /* Add a minimum width to ensure visibility */
     }
 
-    .button-container-1, .button-container-2 {
+    .button-container-1, .button-container-2, .button-container-3 {
         flex-direction: column; /* Stack buttons vertically on small screens */
     }
     .button-text-1, .button-text-2 {
@@ -626,14 +650,14 @@ html, body {
         width: 60px; /* Smaller icons */
         height: 60px; /* Smaller icons */
     }
-    .custom-button-1, .custom-button-2 {
+    .custom-button-1, .custom-button-2, .custom-button-3 {
         width: 100%; /* Allow buttons to shrink on smaller screens */
         height: auto; /* Adjust height accordingly */
         min-height: 280px; /* Add a minimum height to ensure visibility */
         min-width: 320px; /* Add a minimum width to ensure visibility */
     }
 
-    .button-container-1, .button-container-2 {
+    .button-container-1, .button-container-2, .button-container-3 {
         flex-direction: column; /* Stack buttons vertically on small screens */
     }
     .button-text-1, .button-text-2 {
@@ -676,14 +700,14 @@ html, body {
         width: 50px; /* Smallest icon size */
         height: 50px; /* Smallest icon size */
     }
-    .custom-button-1, .custom-button-2 {
+    .custom-button-1, .custom-button-2, .custom-button-3 {
         width: 100%; /* Allow buttons to shrink on smaller screens */
         height: auto; /* Adjust height accordingly */
         min-height: 150px; /* Add a minimum height to ensure visibility */
         min-width: 200px; /* Add a minimum width to ensure visibility */
     }
 
-    .button-container-1, .button-container-2 {
+    .button-container-1, .button-container-2, .button-container-3 {
         flex-direction: column; /* Stack buttons vertically on small screens */
     }
     .button-text-1, .button-text-2 {
@@ -725,14 +749,14 @@ html, body {
         width: 40px; /* Smallest icon size */
         height: 40px; /* Smallest icon size */
     }
-    .custom-button-1, .custom-button-2 {
+    .custom-button-1, .custom-button-2, .custom-button-3 {
         width: 100%; /* Allow buttons to shrink on smaller screens */
         height: auto; /* Adjust height accordingly */
         min-height: 150px; /* Add a minimum height to ensure visibility */
         min-width: 200px; /* Add a minimum width to ensure visibility */
     }
 
-    .button-container-1, .button-container-2 {
+    .button-container-1, .button-container-2, .button-container-3 {
         flex-direction: column; /* Stack buttons vertically on small screens */
     }
     .button-text-1, .button-text-2 {
