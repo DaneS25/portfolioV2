@@ -19,7 +19,11 @@ html, body {
         "item3 item3"
         "item4 item5"
         "item6 item7"
-        "item8 item8"; /* Adjusted layout for 2 columns */
+        "item8 item9"
+        "item10 item11"
+        "item12 item12"
+        "item13 item14"
+        "item15 item16"; /* Adjusted layout for 2 columns */
     gap: 30px; /* Space between items */
     width: 100%; /* Ensure the grid takes the full width */
     padding: 0; /* Remove padding around the grid */
@@ -107,6 +111,14 @@ html, body {
     box-shadow: none; 
 }
 .item8 { grid-area: item8; height: auto; }
+.item9 { grid-area: item9; height: auto; }
+.item10 { grid-area: item10; height: auto; }
+.item11 { grid-area: item11; height: auto; }
+.item12 { grid-area: item12; height: auto; }
+.item13 { grid-area: item13; height: auto; }
+.item14 { grid-area: item14; height: auto; }
+.item15 { grid-area: item15; height: auto; }
+.item16 { grid-area: item16; height: auto; }
 
 .para1 {
     font-family: "VT323", monospace; /* Use VT323 font for monospace style */
@@ -373,8 +385,8 @@ html, body {
             "item3"
             "item4"
             "item5"
-            "item6"
             "item7"
+            "item6"
             "item8"; /* All items stacked in one column */
     }
     .para1, .project-text, .project-text-1, .project-text-title, .project-title-1, .project-text-2 {
@@ -424,8 +436,8 @@ html, body {
             "item3"
             "item4"
             "item5"
-            "item6"
             "item7"
+            "item6"
             "item8"; /* Stack all items */
     }
 
