@@ -131,8 +131,23 @@ const PortfolioGrid = () => {
                     </a>
                 </div>
             </div>
-            <div className="grid-item item8">Item 8</div>
-            <div className="grid-item item9"><p className='para1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur suscipit, ligula at tincidunt tristique, nunc nulla hendrerit est, eget vehicula urna lacus nec elit. Donec vel ante sit amet dolor interdum tempus. Praesent scelerisque nisi ut tortor egestas, ut pharetra eros ultrices. Aenean sit amet malesuada lorem. Etiam ultricies urna vitae lectus convallis, nec dignissim tortor fermentum. Phasellus id risus ut mi vehicula auctor. Suspendisse id orci nec ipsum suscipit vulputate non nec tortor. Proin consectetur, velit a facilisis placerat, libero purus ullamcorper purus, in finibus felis mi et lacus.</p></div>
+            <div className="grid-item item8">
+            <div className="button-container-3">
+                    <a href="https://rsvp-ten-fawn.vercel.app/" target="_blank" rel="noopener noreferrer" className="custom-button-3">
+                        <span className="button-text-2">RSVP</span>
+                    </a>
+                </div>
+            </div>
+            <div className="grid-item item9">
+            <h3 className='project-title-1'>RSVP</h3>
+                <p className='project-text-2'>
+                    The RSVP application was developed using React for its responsive user interface, and EmailJS for handling client-side email submission. The core feature of the app is a modal form that allows users to RSVP by providing their details, which are then sent directly to a predefined email address (in this case, my personal email) via the EmailJS service.
+                    <br /><br />
+                    To enhance security and prevent automated spam, the form is protected by Google reCAPTCHA, which verifies human interaction before submission. The form is designed to be fully responsive, adapting to various screen sizes, and utilizes React's state management to handle form inputs and error handling. Upon successful form submission, a notification system provides feedback to the user, improving the overall user experience.
+                    <br /><br />
+                    This solution avoids backend overhead by leveraging serverless architecture, enabling lightweight and scalable email handling without the need for server-side infrastructure.
+                </p>
+            </div>
             <div className="grid-item item10"><p className='para1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur suscipit, ligula at tincidunt tristique, nunc nulla hendrerit est, eget vehicula urna lacus nec elit. Donec vel ante sit amet dolor interdum tempus. Praesent scelerisque nisi ut tortor egestas, ut pharetra eros ultrices. Aenean sit amet malesuada lorem. Etiam ultricies urna vitae lectus convallis, nec dignissim tortor fermentum. Phasellus id risus ut mi vehicula auctor. Suspendisse id orci nec ipsum suscipit vulputate non nec tortor. Proin consectetur, velit a facilisis placerat, libero purus ullamcorper purus, in finibus felis mi et lacus.</p></div>
             <div className="grid-item item11">Item 11</div>
             <div className="grid-item item12">Item 12</div>
