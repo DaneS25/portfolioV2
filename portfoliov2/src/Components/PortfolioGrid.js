@@ -97,7 +97,7 @@ const PortfolioGrid = () => {
         <div className="portfolio-grid">
             <div className="grid-item item1">
                 <p className='para1'>
-                    Welcome to my portfolio, I'm Dane Sorensen, a 29-year-old IT professional based in Kapiti Coast, Wellington.<br></br> I hold a Bachelor of Information Technology from Otago Polytechnic, where I graduated with distinction in mid-2023. Since then, I have been working in IT support for the New Zealand Police, currently serving as second in charge of my team. This role has provided me with valuable leadership experience and hands-on technical problem-solving in a fast-paced environment.
+                    Welcome to my portfolio, I'm Dane Sorensen (aka e1n), a 29-year-old IT professional based in Kapiti Coast, Wellington.<br></br> I hold a Bachelor of Information Technology from Otago Polytechnic, where I graduated with distinction in mid-2023. Since then, I have been working in IT support for the New Zealand Police, currently serving as second in charge of my team. This role has provided me with valuable leadership experience and hands-on technical problem-solving in a fast-paced environment.
                     <br></br>
                     <br></br>
                     I'm passionate about cybersecurity and continuously expanding my knowledge. I'm actively studying through Hack The Box Academy, and recently earned my ISC2 Certified in Cybersecurity (CC) certification. I also pursue other IT certifications to deepen my expertise in this field.
@@ -201,7 +201,13 @@ const PortfolioGrid = () => {
                     <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWxqdGMybnBlZ3ZycWs2dmxvOXV2dWU3NXU4NGV2ajg3d3c3cG16cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/1lDE8yNG4a8oqdOajv/giphy.webp" alt="Right" className="side-image" />
                 </div>
             </div>
-            <div className="grid-item item13"><p className='para1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur suscipit, ligula at tincidunt tristique, nunc nulla hendrerit est, eget vehicula urna lacus nec elit. Donec vel ante sit amet dolor interdum tempus. Praesent scelerisque nisi ut tortor egestas, ut pharetra eros ultrices. Aenean sit amet malesuada lorem. Etiam ultricies urna vitae lectus convallis, nec dignissim tortor fermentum. Phasellus id risus ut mi vehicula auctor. Suspendisse id orci nec ipsum suscipit vulputate non nec tortor. Proin consectetur, velit a facilisis placerat, libero purus ullamcorper purus, in finibus felis mi et lacus.</p></div>
+            <div className="grid-item item13">
+                <p className='para1'>Thank you for visiting my portfolio. If you'd like to get in touch, I'm easily reachable through several channels, including email, LinkedIn, Instagram, Discord, or mobile (+64 22 321 7388). I'm open to discussing any opportunities, whether they involve permanent positions, contract or temp work, or even one-off freelance projects.
+                    <br></br><br></br>While I am more than happy to provide a free quote for freelance work, my preference lies in more stable, long-term opportunities. I'm excited to hear from you, regardless of the nature of your inquiry, and I will make every effort to respond as promptly as possible.
+                    <br></br><br></br>For the fastest response, I recommend using the contact form on this website. However, rest assured that any method you choose will reach me—it may just take a bit longer for me to get back to you.
+                    <br></br><br></br>Thank you again for taking the time to explore my portfolio. I look forward to hearing from you soon, and I hope you have a wonderful day!
+                </p>
+            </div>
             <div className="grid-item item14">
                 <form className="contact-form" onSubmit={handleSubmit}>
                     <label htmlFor="name">Name:</label>
@@ -230,7 +236,7 @@ const PortfolioGrid = () => {
                     <img src={InstagramIcon} alt="Instagram Icon" className='grid-icon'/>
                 </div>
             </div>
-            <div className="grid-item item16"><p className='para1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur suscipit, ligula at tincidunt tristique, nunc nulla hendrerit est, eget vehicula urna lacus nec elit. Donec vel ante sit amet dolor interdum tempus. Praesent scelerisque nisi ut tortor egestas, ut pharetra eros ultrices. Aenean sit amet malesuada lorem. Etiam ultricies urna vitae lectus convallis, nec dignissim tortor fermentum. Phasellus id risus ut mi vehicula auctor. Suspendisse id orci nec ipsum suscipit vulputate non nec tortor. Proin consectetur, velit a facilisis placerat, libero purus ullamcorper purus, in finibus felis mi et lacus.</p></div>
+            <div className="grid-item item16"><p className='para1'>This website was created by e1n web designs</p></div>
             <ToastContainer 
                 theme="dark"
             />

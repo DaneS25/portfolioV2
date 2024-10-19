@@ -136,7 +136,12 @@ html, body {
     background-color: transparent; 
     box-shadow: none; 
 }
-.item13 { grid-area: item13; height: auto; }
+.item13 { 
+    grid-area: item13; 
+    height: auto;
+    background-color: transparent;
+    box-shadow: none;  
+}
 .item14 { 
     grid-area: item14; 
     height: auto;
