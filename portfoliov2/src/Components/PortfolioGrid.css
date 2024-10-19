@@ -137,7 +137,12 @@ html, body {
     box-shadow: none; 
 }
 .item13 { grid-area: item13; height: auto; }
-.item14 { grid-area: item14; height: auto; }
+.item14 { 
+    grid-area: item14; 
+    height: auto;
+    background-color: transparent;
+    box-shadow: none;  
+}
 .item15 { grid-area: item15; height: auto; }
 .item16 { grid-area: item16; height: auto; }
 
@@ -390,6 +395,49 @@ html, body {
     width: 100%;                         /* Image covers the entire wrapper */
     height: auto;                        /* Maintain aspect ratio */
     object-fit: cover;                   /* Cover the container */
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 500px; /* Adjust width as needed */
+    margin: 0 auto;
+}
+
+.contact-form label {
+    font-family: "VT323", monospace; /* Use VT323 font for monospace style */
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    outline: none;
+    background-color: rgba(156, 154, 154, 0.9); /* White background with 30% opacity */
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #CC5500;
+}
+
+.send-button {
+    font-family: "VT323", monospace; /* Use VT323 font for monospace style */
+    padding: 10px 15px;
+    font-size: 1.1em;
+    background-color: #CC5500;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.send-button:hover {
+    background-color: #a14503;
 }
 
 /* Media Query for responsive behavior */
