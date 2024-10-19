@@ -8,6 +8,8 @@ import PictureOfMe from '../Assets/mepicture.jpg'
 import PictureOfMe2 from '../Assets/mepicture2.jpg'
 import ReCAPTCHA from "react-google-recaptcha";
 import emailjs from 'emailjs-com';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const PortfolioGrid = () => {
     const [isSwapped, setIsSwapped] = useState(false); // State to track image swap
@@ -22,7 +24,7 @@ const PortfolioGrid = () => {
         e.preventDefault();
 
         if (!recaptchaValue) {
-            alert('Please complete the reCAPTCHA.');
+            toast.error('Please complete the reCAPTCHA.');
             return;
         }
 
@@ -30,10 +32,10 @@ const PortfolioGrid = () => {
         emailjs.sendForm('service_iozmobz', 'template_7642osm', e.target, '3_FB-mibcvcaR-QGj')
             .then((result) => {
                 console.log(result.text);
-                alert('Message sent successfully!');
+                toast.success('Message sent successfully!');
             }, (error) => {
                 console.log(error.text);
-                alert('An error occurred. Please try again.');
+                toast.error('An error occurred. Please try again.');
             });
 
         // Clear form fields after submission
@@ -229,6 +231,9 @@ const PortfolioGrid = () => {
                 </div>
             </div>
             <div className="grid-item item16"><p className='para1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur suscipit, ligula at tincidunt tristique, nunc nulla hendrerit est, eget vehicula urna lacus nec elit. Donec vel ante sit amet dolor interdum tempus. Praesent scelerisque nisi ut tortor egestas, ut pharetra eros ultrices. Aenean sit amet malesuada lorem. Etiam ultricies urna vitae lectus convallis, nec dignissim tortor fermentum. Phasellus id risus ut mi vehicula auctor. Suspendisse id orci nec ipsum suscipit vulputate non nec tortor. Proin consectetur, velit a facilisis placerat, libero purus ullamcorper purus, in finibus felis mi et lacus.</p></div>
+            <ToastContainer 
+                theme="dark"
+            />
         </div>
     );
 };
