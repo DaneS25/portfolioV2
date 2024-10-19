@@ -148,8 +148,18 @@ html, body {
     background-color: transparent;
     box-shadow: none;  
 }
-.item15 { grid-area: item15; height: auto; }
-.item16 { grid-area: item16; height: auto; }
+.item15 { 
+    grid-area: item15; 
+    height: auto;
+    background-color: transparent;
+    box-shadow: none;  
+}
+.item16 { 
+    grid-area: item16; 
+    height: auto;
+    background-color: transparent;
+    box-shadow: none;  
+}
 
 .para1 {
     font-family: "VT323", monospace; /* Use VT323 font for monospace style */
@@ -370,8 +380,8 @@ html, body {
 }
 
 .grid-icon {
-    width: 120px; /* Set the desired width */
-    height: 120px; /* Set the desired height */
+    width: 80px; /* Set the desired width */
+    height: 80px; /* Set the desired height */
     object-fit: cover; /* Ensures image covers the container without distortion */
     border-radius: 50%; /* Makes the image circular */
 }

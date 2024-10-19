@@ -4,6 +4,7 @@ import '../App.css';
 import GitHubIcon from '../Assets/github.jpg'
 import LinkedInIcon from '../Assets/linkedin.jpg'
 import InstagramIcon from '../Assets/instagram.png'
+import DiscordIcon from '../Assets/discordpic.jpeg'
 import PictureOfMe from '../Assets/mepicture.jpg'
 import PictureOfMe2 from '../Assets/mepicture2.jpg'
 import ReCAPTCHA from "react-google-recaptcha";
@@ -231,9 +232,18 @@ const PortfolioGrid = () => {
             </div>
             <div className="grid-item item15">
                 <div className="icon-container">
-                    <img src={GitHubIcon} alt="Github Icon" className="grid-icon" />
-                    <img src={LinkedInIcon} alt="Linkedin Icon" className='grid-icon'/>
-                    <img src={InstagramIcon} alt="Instagram Icon" className='grid-icon'/>
+                    <a href="https://github.com/DaneS25" target="_blank" rel="noopener noreferrer">
+                        <img src={GitHubIcon} alt="Github Icon" className="grid-icon" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/dane-sorensen-4604b8273/" target="_blank" rel="noopener noreferrer">
+                        <img src={LinkedInIcon} alt="LinkedIn Icon" className="grid-icon" />
+                    </a>
+                    <a href="https://www.instagram.com/d4ne.s/" target="_blank" rel="noopener noreferrer">
+                        <img src={InstagramIcon} alt="Instagram Icon" className="grid-icon" />
+                    </a>
+                    <a href="https://discord.com/users/298385807142813697" target="_blank" rel="noopener noreferrer">
+                        <img src={DiscordIcon} alt="Discord Icon" className="grid-icon" />
+                    </a>
                 </div>
             </div>
             <div className="grid-item item16"><p className='para1'>This website was created by e1n web designs</p></div>
